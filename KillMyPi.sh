@@ -7,9 +7,8 @@
 
 
 
-# So that we get root permissions [most pi's our just called pi]
+# Simple command to tell you your Pi is dead
 
-pi ALL=(ALL) NOPASSWD: ALL
 echo "KillMyPi"
 echo "RUNNING"
 
