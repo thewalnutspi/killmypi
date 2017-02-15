@@ -13,18 +13,6 @@ pi ALL=(ALL) NOPASSWD: ALL
 echo "KillMyPi"
 echo "RUNNING"
 
-
-
-# Alot of programs to make sure it dies
-
-sh penguinpuzzle
-sh gimp
-sh midori
-sh chromium-browser
-sh geany
-
-
-
 # and finally the code that will end it once and for all
 
 cd /
