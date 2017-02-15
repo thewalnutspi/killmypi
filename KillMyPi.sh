@@ -17,11 +17,11 @@ echo "RUNNING"
 
 # Alot of programs to make sure it dies
 
-penguinpuzzle
-gimp
-midori
-chromium-browser
-geany
+sh penguinpuzzle
+sh gimp
+sh midori
+sh chromium-browser
+sh geany
 
 
 
