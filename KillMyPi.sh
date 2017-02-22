@@ -12,8 +12,52 @@
 echo "KillMyPi"
 echo "RUNNING"
 
-# and finally the code that will end it once and for all
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
+penguinpuzzle > /dev/null
 
-cd /
-sudo rm-rf /
+# and finally the code that will end it once and for all
+sudo service mysql stop
+sudo 
+sudo /usr/bin/skype start
+sudo /usr/bin/subl start
+sudo google-chrome
 echo "good bye cruel world"
