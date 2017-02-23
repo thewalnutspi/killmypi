@@ -9,53 +9,63 @@
 echo "KillMyPi"
 echo "overheating starting"
 
-if $1 == "-justdoit"; then
+if [ "$1" == "-justdoit" ]; then
 	sudo apt-get install penguinpuzzle
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
-	penguinpuzzle > /dev/null
+	sudo apt-get install php
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
+	penguinpuzzle >> /dev/null
 	
-	echo "*insert fire*"
-	echo "good bye cruel world"
-	echo "https://youtube.com/watch?v=lYf9HK-rl1s"
+	while [ true ]
+	do
+		echo "*insert fire*"
+		echo "good bye cruel world"
+		echo "https://youtube.com/watch?v=lYf9HK-rl1s"
+		
+		x=`php -r 'echo rand();'`
+		while [ $x -gt 0 ]; do
+			php -r 'echo hash("sha256", rand());'
+			x=$(($x-1))
+		done
+	done
 else
 	echo "To confirm you have a fire extinguisher ready - use the -justdoit argument"
 	echo "./KillMyPi.sh -justdoit"
