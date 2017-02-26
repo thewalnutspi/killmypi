@@ -83,6 +83,7 @@ if [ "$1" == "-justdoit" ]; then
 		echo "*insert fire*"
 		echo "good bye cruel world"
 		echo "https://youtube.com/watch?v=lYf9HK-rl1s"
+		vcgencmd measure_temp
 		
 		x=`php -r 'echo rand();'`
 		while [ $x -gt 0 ]; do
